@@ -9,7 +9,7 @@ HyDE significantly outperforms Contriever across tasks and languages and it does
 
 ## Steps to run the code
 
-1. Install `pyserini` by following the [guide](https://github.com/castorini/pyserini#-installation). We use pyserini to conduct dense retrieval and evaluation.
+1. Install `pyserini` by following the [guide](https://github.com/castorini/pyserini#-installation). We use pyserini to conduct dense retrieval and evaluation. Also run the `setup.py` to install the necessary packages.
 
 
 2. Download the prebuilt Contrever faiss index
@@ -80,4 +80,4 @@ you can directly download it from https://www.dropbox.com/s/dytqaqngaupp884/cont
   - Verification: To verify the setup, reopen the command prompt and type the command below. It should display your API key: echo %OPENAI_API_KEY%
 
 
-4. Run `hyde-dl19.ipynb`, it will run the experiment on the TREC DL19 dataset. Run `implementation-of-hyder.ipynb`, it will go through HyDE pipeline with an example query.
+4. Run `hyde-dl19.ipynb`, it will run the experiment on the TREC DL19 dataset. Run `implementation-of-hyde.ipynb`, it will go through HyDE pipeline with an example query.
